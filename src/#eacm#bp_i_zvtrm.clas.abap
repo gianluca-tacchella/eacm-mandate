@@ -1,0 +1,13 @@
+CLASS /eacm/bp_i_zvtrm DEFINITION
+  PUBLIC
+  ABSTRACT
+  FINAL
+  FOR BEHAVIOR OF /EACM/I_ZVTRM.
+protected section.
+private section.
+ENDCLASS.
+
+
+
+CLASS /EACM/BP_I_ZVTRM IMPLEMENTATION.
+ENDCLASS.

@@ -1,0 +1,55 @@
+@Metadata.layer: #CUSTOMER
+annotate entity /EACM/C_ZVTRM with
+{
+  @UI.facet: [{ id: 'General', type: #IDENTIFICATION_REFERENCE, label: 'SAP table field transcoding', position: 10 }]
+
+  @UI: { lineItem: [{ position: 10 }], identification: [{ position: 10 }], selectionField: [{ position: 10 }] }
+  Zkwrd;
+
+  @UI: { lineItem: [{ position: 30 }], identification: [{ position: 30 }] }
+  Zcsap;
+
+  @UI: { lineItem: [{ position: 40 }], identification: [{ position: 40 }] }
+  Zcktb;
+
+  @UI: { lineItem: [{ position: 50 }], identification: [{ position: 50 }] }
+  Zckf1;
+
+  @UI: { lineItem: [{ position: 60 }], identification: [{ position: 60 }] }
+  Zckf2;
+
+  @UI: { lineItem: [{ position: 70 }], identification: [{ position: 70 }] }
+  Zckf3;
+
+  @UI: { lineItem: [{ position: 80 }], identification: [{ position: 80 }] }
+  Zckf4;
+
+  @UI: { lineItem: [{ position: 90 }], identification: [{ position: 90 }] }
+  Zckf5;
+
+  @UI: { lineItem: [{ position: 100 }], identification: [{ position: 100 }] }
+  Ztbds;
+
+  @UI: { lineItem: [{ position: 110 }], identification: [{ position: 110 }] }
+  Zdfl1;
+
+  @UI: { lineItem: [{ position: 120 }], identification: [{ position: 120 }] }
+  Zdfl2;
+
+  @UI: { lineItem: [{ position: 130 }], identification: [{ position: 130 }] }
+  Zdfl3;
+
+  @UI: { lineItem: [{ position: 140 }], identification: [{ position: 140 }] }
+  Zkeydes;
+
+  @UI.hidden: true
+  CreatedBy;
+  @UI.hidden: true
+  CreatedAt;
+  @UI.hidden: true
+  ChangedBy;
+  @UI.hidden: true
+  ChangedAt;
+  @UI.hidden: true
+  LocalLastChangedAt;
+}

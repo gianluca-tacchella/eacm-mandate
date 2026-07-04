@@ -1,0 +1,6 @@
+@EndUserText.label: 'eACM Mandate Configuration'
+define service /EACM/MNDT_SD {
+  expose /EACM/C_ZAMBT;
+  expose /EACM/C_ZACMBAS;
+  expose /EACM/C_ZVTRM;
+}

@@ -1,0 +1,13 @@
+CLASS /eacm/bp_i_zambt DEFINITION
+  PUBLIC
+  ABSTRACT
+  FINAL
+  FOR BEHAVIOR OF /EACM/I_ZAMBT.
+protected section.
+private section.
+ENDCLASS.
+
+
+
+CLASS /EACM/BP_I_ZAMBT IMPLEMENTATION.
+ENDCLASS.

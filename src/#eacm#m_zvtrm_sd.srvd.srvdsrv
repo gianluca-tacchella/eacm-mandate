@@ -1,0 +1,4 @@
+@EndUserText.label: 'Maint. C_ZAMBT'
+define service /EACM/M_ZVTRM_SD {
+  expose /EACM/C_ZVTRM as ZVTRM;
+}

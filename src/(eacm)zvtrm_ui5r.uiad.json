@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "{{appDescription}}",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Key maintenance for mandate"
+  },
+  "ui5AppDetails": {
+    "appId": "eacm.zvtrm"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_211057681EA69B4EF9E139E703B09CCAC7C4C90B_TM",
+    "semanticObject": "ZEACM_ZVTRM",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_211057681EA69B4EF9E139E703B09CCAC7C4C90B_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Key maintenance for mandate",
+        "subtitle": "ZEACM_ZVTRM"
+      }
+    }
+  ]
+}

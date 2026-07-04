@@ -1,0 +1,31 @@
+@Metadata.layer: #CUSTOMER
+annotate entity /EACM/C_ZACMBAS with
+{
+  @UI.facet: [{ id: 'General', type: #IDENTIFICATION_REFERENCE, label: 'Commission calculation base per mandate/version', position: 10 }]
+
+  @UI: { lineItem: [{ position: 10 }], identification: [{ position: 10 }], selectionField: [{ position: 10 }] }
+  Vkorg;
+
+  @UI: { lineItem: [{ position: 30 }], identification: [{ position: 30 }], selectionField: [{ position: 30 }] }
+  Vtweg;
+
+  @UI: { lineItem: [{ position: 40 }], identification: [{ position: 40 }], selectionField: [{ position: 40 }] }
+  Znmdt;
+
+  @UI: { lineItem: [{ position: 50 }], identification: [{ position: 50 }], selectionField: [{ position: 50 }] }
+  Znver;
+
+  @UI: { lineItem: [{ position: 60 }], identification: [{ position: 60 }] }
+  Zsubt;
+
+  @UI.hidden: true
+  CreatedBy;
+  @UI.hidden: true
+  CreatedAt;
+  @UI.hidden: true
+  ChangedBy;
+  @UI.hidden: true
+  ChangedAt;
+  @UI.hidden: true
+  LocalLastChangedAt;
+}

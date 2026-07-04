@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "{{appDescription}}",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Manage ambit"
+  },
+  "ui5AppDetails": {
+    "appId": "eacm.zambt"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_BCFECFB2EFAB10EF8A9FDC14DD7F0A8290F4BF09_TM",
+    "semanticObject": "ZEACM_ZAMBT",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_BCFECFB2EFAB10EF8A9FDC14DD7F0A8290F4BF09_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Manage ambit",
+        "subtitle": "ZEACM_ZAMBT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Maint. C_ZAMBT'
+define service /EACM/M_ZAMBT_SD {
+  expose /EACM/C_ZAMBT as ZAMBT;
+}

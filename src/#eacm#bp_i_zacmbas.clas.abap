@@ -1,0 +1,13 @@
+CLASS /eacm/bp_i_zacmbas DEFINITION
+  PUBLIC
+  ABSTRACT
+  FINAL
+  FOR BEHAVIOR OF /EACM/I_ZACMBAS.
+protected section.
+private section.
+ENDCLASS.
+
+
+
+CLASS /EACM/BP_I_ZACMBAS IMPLEMENTATION.
+ENDCLASS.

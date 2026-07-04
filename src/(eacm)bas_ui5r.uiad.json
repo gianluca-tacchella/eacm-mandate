@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "{{appDescription}}",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Basis for comm. mandate"
+  },
+  "ui5AppDetails": {
+    "appId": "eacm.bas"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_4DAC01723EBDA8300479A5FA57358B84726C5CBA_TM",
+    "semanticObject": "ZEACM_BAS",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_4DAC01723EBDA8300479A5FA57358B84726C5CBA_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Basis for comm. mandate",
+        "subtitle": "ZEACM_BAS"
+      }
+    }
+  ]
+}

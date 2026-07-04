@@ -1,0 +1,50 @@
+managed implementation in class /EACM/BP_I_ZVTRM unique;
+strict ( 2 );
+with draft;
+
+define behavior for /EACM/I_ZVTRM alias Zvtrm
+persistent table /eacm/zvtrm
+draft table /eacm/zvtrm_d
+etag master LocalLastChangedAt
+lock master total etag ChangedAt
+authorization master ( global )
+{
+  field ( readonly )
+    CreatedBy,
+    CreatedAt,
+    ChangedBy,
+    ChangedAt,
+    LocalLastChangedAt;
+
+  mapping for /eacm/zvtrm
+  {
+    Zkwrd                = zkwrd;
+    Zcsap                = zcsap;
+    Zcktb                = zcktb;
+    Zckf1                = zckf1;
+    Zckf2                = zckf2;
+    Zckf3                = zckf3;
+    Zckf4                = zckf4;
+    Zckf5                = zckf5;
+    Ztbds                = ztbds;
+    Zdfl1                = zdfl1;
+    Zdfl2                = zdfl2;
+    Zdfl3                = zdfl3;
+    Zkeydes              = zkeydes;
+    CreatedBy            = created_by;
+    CreatedAt            = created_at;
+    ChangedBy            = changed_by;
+    ChangedAt            = changed_at;
+    LocalLastChangedAt   = local_last_changed_at;
+  }
+
+  create;
+  update;
+  delete;
+
+  draft action Edit;
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Resume;
+  draft determine action Prepare;
+}
